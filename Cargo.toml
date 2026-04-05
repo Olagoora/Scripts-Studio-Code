@@ -1,0 +1,90 @@
+[package]
+name = "Scripts_Studio_Code"
+version = "0.1.0"
+edition = "2024"
+default-run = "code"
+
+[dependencies]
+async-trait = "0.1.77"
+base64 = "0.21.7"
+bytes = { version = "1.5.0", features = ["serde"] }
+cfg-if = "1.0.0"
+chrono = { version = "0.4.34", default-features = false, features = ["serde", "clock", "unstable-locales", "arbitrary", "js-sys", "libc", "oldtime", "rkyv", "rkyv-16", "rkyv-32", "rkyv-64", "rkyv-validation", "rustc-serialize", "wasm-bindgen", "wasmbind"] }
+clap = { version = "4.4.18", features = ["cargo", "debug", "deprecated", "derive", "env", "string", "unicode", "unstable-doc", "unstable-styles", "unstable-v5", "wrap_help"] }
+clap_lex = "0.7.0"
+console = { version = "0.15.8", features = ["windows-console-colors"] }
+const_format = { version = "0.2.32", features = ["fmt", "derive"] }
+dialoguer = { version = "0.11.0", features = ["completion", "fuzzy-select", "history"] }
+dirs = "5.0.1"
+env_logger = "0.11.9"
+flate2 = { version = "1.0.28", default-features = false, features = ["cloudflare-zlib-sys", "cloudflare_zlib", "libz-ng-sys", "miniz-sys", "miniz_oxide", "rust_backend", "zlib", "zlib-default", "zlib-ng", "zlib-ng-compat"] }
+futures = { version = "0.3.30", features = ["bilock", "cfg-target-has-atomic", "compat", "futures-executor", "io-compat", "thread-pool", "unstable", "write-all-vectored"] }
+gethostname = "0.4.3"
+git2 = "0.20.4"
+hyper = { version = "1.9.0", features = ["full", "http1", "http2", "client", "server"] }
+indicatif = { version = "0.17.7", features = ["tokio", "rayon", "vt100"] }
+lazy_static = { version = "1.4.0", features = ["spin", "spin_no_std"] }
+libc = { version = "0.2.153", features = ["extra_traits"] }
+log = { version = "0.4.20", features = ["serde", "std"] }
+lsp-server = "0.7.9"
+lsp-types = "0.97.0"
+notify = "8.2.0"
+open = "5.0.0"
+opentelemetry = { version = "0.31.0", features = ["metrics", "spec_unstable_logs_enabled", "testing", "trace"] }
+pin-project = "1.1.3"
+rand = { version = "0.8.5", features = ["serde", "small_rng", "simd_support"] }
+rayon = "1.11.0"
+regex = { version = "1.10.3", features = ["unicode", "perf", "perf-dfa-full", "logging", "pattern"] }
+reqwest = { version = "0.12.4", features = ["brotli", "cookies", "deflate", "gzip", "json", "multipart", "rustls-tls", "stream"], default-features = false }
+rmp-serde = "1.1.2"
+ropey = "1.6.1"
+serde = { version = "1.0.197", features = ["alloc", "derive", "rc"] }
+serde_bytes = "0.11.14"
+serde_json = { version = "1.0.114", features = ["arbitrary_precision", "raw_value", "unbounded_depth", "preserve_order"] }
+sha2 = { version = "0.10.8", features = ["asm", "compress"] }
+shell-escape = "0.1.5"
+syn = { version = "2.0.117", features = ["full"] }
+sysinfo = { version = "0.30.5", default-features = false, features = ["debug", "multithread", "serde"] }
+tar = { version = "0.4.40", features = ["xattr"] }
+tempfile = { version = "3.9.0", features = ["nightly"] }
+thiserror = "1.0.57"
+tokio = { version = "1.36.0", features = ["full", "mio", "test-util", "tracing", "windows-sys"] }
+tokio-util = { version = "0.7.10", features = ["compat", "codec", "full", "__docs_rs", "io", "net", "time", "rt"] }
+toml = "1.0.3"
+tower-lsp = "0.20.0"
+tree-sitter = "0.26.5"
+url = { version = "2.5.0", features = ["serde", "expose_internals"] }
+uuid = { version = "1.7.0", features = ["fast-rng", "macro-diagnostics", "serde", "v1", "v3", "v4", "v5", "v7", "v8"] }
+zip = { version = "0.6.6", default-features = false, features = ["time", "deflate-zlib", "aes", "aes-crypto", "bzip2", "constant_time_eq", "deflate", "deflate-miniz", "flate2", "hmac", "pbkdf2", "sha1", "unreserved", "zstd"] }
+
+[lib]
+name = "cli"
+path = "cli/src/lib.rs"#".src/src/lib.rs"
+
+[[bin]]
+name = "code"
+path = "src/main.rs"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.56.0"
+winapi = "0.3.9"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+core-foundation = "0.10.1"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+zbus = { version = "3.14.1", default-features = false, features = ["tokio"] }
+
+[patch.crates-io]
+russh = { git = "https://github.com/microsoft/vscode-russh", branch = "main" }
+russh-cryptovec = { git = "https://github.com/microsoft/vscode-russh", branch = "main" }
+russh-keys = { git = "https://github.com/microsoft/vscode-russh", branch = "main" }
+
+[profile.release]
+strip = true
+lto = "thin"
+
+[features]
+default = []
+vsda = []
+vscode-encrypt = []
