@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-const FILE_HEADER: &str = "/*---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See LICENSE.txt or LICENSE in the project root for license information.\n *--------------------------------------------------------------------------------------------*/";
+const FILE_HEADER: &str = "/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n *  Copyright (©) Laël Hadjes-Glatard Corporation. All rights reserved.\n *  Licensed under the MIT License. See LICENSE.txt or LICENSE in the project root for license information.\n *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/";
 
 use std::{
 	collections::HashMap,
@@ -108,7 +108,6 @@ where
 	let mut file = fs::File::open(path).expect("failed to open file");
 	serde_json::from_reader(&mut file).expect("failed to deserialize JSON")
 }
-
 fn apply_build_from_product_json(path: &Path) {
 	let json: HashMap<String, Value> = read_json_from_path(path);
 	set_env_vars_from_map_keys("VSCODE_CLI", json);
