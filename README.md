@@ -86,19 +86,22 @@ Licensed under the [MIT](LICENSE.txt) license.
 
 ## The Repository
 
-This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Studio Code](https://code.scriptsstudio.com) product together with the community. Not only do we work on code and issues here, we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
+This repository ("`Code - OSS`") is where we (Laël Hadjes-Glatard) develop the [Scripts Studio Code](https://code.scripts-studio.com) product together with the community. Not only do we work on code and issues here, we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
 
 ## Scripts Studio Code
 
 <p align="center">
-  <img alt="SS Code in action" src="https://">
+  <div>
+    <img alt="SS Code in action" src="./test/componentFixtures/.screenshots/baseline/codeEditor/CodeEditor/Dark.png">
+    <img alt="SS Code in action" src="./test/componentFixtures/.screenshots/baseline/codeEditor/CodeEditor/Light.png">
+  </div>
 </p>
 
-[Scripts Studio Code](https://code.scriptsstudio.com) is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [product license](https://code.visualstudio.com/License/).
+[Scripts Studio Code](https://code.scripts-studio.com) is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [product license](https://code.visualstudio.com/License/).
 
-[Scripts Studio Code](https://code.scriptsstudio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
+[Scripts Studio Code](https://code.scripts-studio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
 
-Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on [Visual Studio Code's website](https://code.visualstudio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visualstudio.com/insiders).
+Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on [Visual Studio Code's website](https://code.visual-studio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visual-studio.com/insiders).
 
 ## Contributing
 
@@ -131,7 +134,7 @@ See our [wiki](https://github.com/microsoft/vscode/wiki/Feedback-Channels) for a
 
 ## Related Projects
 
-Many of the core components and extensions to VS Code live in their own repositories on GitHub. For example, the [node debug adapter](https://github.com/microsoft/vscode-node-debug) and the [mono debug adapter](https://github.com/microsoft/vscode-mono-debug) repositories are separate from each other. For a complete list, please visit the [Related Projects](https://github.com/microsoft/vscode/wiki/Related-Projects) page on our [wiki](https://github.com/microsoft/vscode/wiki).
+Many of the core components and extensions to SS Code live in their own repositories on GitHub. For example, the [node debug adapter](https://github.com/microsoft/vscode-node-debug) and the [mono debug adapter](https://github.com/microsoft/vscode-mono-debug) repositories are separate from each other. For a complete list, please visit the [Related Projects](https://github.com/microsoft/vscode/wiki/Related-Projects) page on our [wiki](https://github.com/microsoft/vscode/wiki).
 
 ## Bundled Extensions
 
@@ -150,10 +153,9 @@ Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB reco
 
 ## Code of Conduct
 
-This project has adopted the [ Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@sscode.com) with any additional questions or comments.
+This project has adopted the [ Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@vscode.com) with any additional questions or comments.
 
 ## License
 
-Copyright (c) Microsoft Corporation. All rights reserved.
-
-Licensed under the [MIT](LICENSE) license.
+Copyright (©) Laël Hadjes-Glatard Corporation. All rights reserved.
+Licensed under the [MIT](LICENSE) License.
