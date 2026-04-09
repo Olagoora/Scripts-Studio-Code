@@ -1,13 +1,3 @@
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-#[cfg(target_os = "windows")]
-pub type SleepInhibitor = super::nosleep_windows::SleepInhibitor;
-
-#[cfg(target_os = "linux")]
-pub type SleepInhibitor = super::nosleep_linux::SleepInhibitor;
-
-#[cfg(target_os = "macos")]
-pub type SleepInhibitor = super::nosleep_macos::SleepInhibitor;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f1272632f2523536dace35eb60b71a01cae705b6a929bc676d2fa5d8bd98a41
+size 648

@@ -1,15 +1,3 @@
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-use crate::{log, state::LauncherPaths};
-
-use super::args::CliCore;
-
-pub struct CommandContext {
-	pub log: log::Logger,
-	pub paths: LauncherPaths,
-	pub args: CliCore,
-	pub http: reqwest::Client,
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f35b02b623de6431bc3e1264fa1c96580420e9368b596e1fb4e773120013eb87
+size 564

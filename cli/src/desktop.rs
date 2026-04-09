@@ -1,8 +1,3 @@
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-mod version_manager;
-
-pub use version_manager::{prompt_to_install, CodeVersionManager, RequestedVersion};
+version https://git-lfs.github.com/spec/v1
+oid sha256:e65c7e7829ed2065b8d6e55bc6bb0a73bbdecedb050d21b41dc564d7a6a14304
+size 467

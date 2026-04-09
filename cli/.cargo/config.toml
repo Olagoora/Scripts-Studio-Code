@@ -1,6 +1,3 @@
-[target.'cfg(all(target_os = "windows", any(target_arch = "i686", target_arch = "x86_64", target_arch = "x86")))']
-rustflags = ["-Ctarget-feature=+crt-static", "-Clink-args=/guard:cf", "-Clink-args=/CETCOMPAT"]
-
-# CETCOMPAT is not supported on ARM binaries
-[target.'cfg(all(target_os = "windows", not(any(target_arch = "i686", target_arch = "x86_64", target_arch = "x86"))))']
-rustflags = ["-Ctarget-feature=+crt-static", "-Clink-args=/guard:cf"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:8006c0be6bcde1df96c10e5f673e57529a1d35e1bf8691f30a788839aae22f1b
+size 453
