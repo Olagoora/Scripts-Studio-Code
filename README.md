@@ -80,6 +80,7 @@ Licensed under the [MIT](LICENSE.txt) license.
 -->
 <!-- =================================================================================================== -->
 # Scripts Studio Code - Open Source ("Code - OSS")
+[![Repo](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/Olagoora/Scripts-Studio-Code.git)
 [![Feature Requests](https://img.shields.io/github/issues/Olagoora/Scripts-Studio-Code/feature-request.svg)](https://github.com/Olagoora/Scripts-Studio-Code/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
 [![Bugs](https://img.shields.io/github/issues/Olagoora/Scripts-Studio-Code/bug.svg)](https://github.com/Olagoora/Scripts-Studio-Code/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 [![GitHub Discussions](https://img.shields.io/github/discussions/Olagoora/Scripts-Studio-Code)](https://github.com/Olagoora/Scripts-Studio-Code/discussions)
