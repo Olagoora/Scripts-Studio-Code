@@ -1,0 +1,15 @@
+[submodule "vcpkg"]
+	path = vcpkg
+	url = https://github.com/microsoft/vcpkg.git
+[submodule "Newtonsoft.Json"]
+	path = Newtonsoft.Json
+	url = https://github.com/JamesNK/Newtonsoft.Json.git
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/Olagoora/Scripts-Studio-Code.wiki.git
+[submodule "fsharp"]
+	path = fsharp
+	url = https://github.com/dotnet/fsharp.git
+[submodule "ocaml"]
+	path = ocaml
+	url = https://github.com/ocaml/ocaml.git

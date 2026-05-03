@@ -36,8 +36,8 @@ vs/sessions      ← Agent Sessions window (this layer)
 
 ### 2.2 Dependency Rules
 
-- ✅ Import from `vs/base`, `vs/platform`, `vs/editor`, `vs/workbench`
-- ✅ Import within `vs/sessions` (internal)
+- :white_check_mark: Import from `vs/base`, `vs/platform`, `vs/editor`, `vs/workbench`
+- :white_check_mark: Import within `vs/sessions` (internal)
 - ❌ Never import `vs/sessions` from `vs/workbench`
 - Run `npm run valid-layers-check` to verify layering
 

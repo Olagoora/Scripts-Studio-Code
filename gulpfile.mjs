@@ -3,4 +3,3 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import './build/gulpfile.ts';
->>>>>>> fe3ea42d8cb054df19408c0bd81b467ebfdb0245

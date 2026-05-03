@@ -51,15 +51,19 @@ thiserror = "1.0.57"
 tokio = { version = "1.36.0", features = ["full", "mio", "test-util", "tracing", "windows-sys"] }
 tokio-util = { version = "0.7.10", features = ["compat", "codec", "full", "__docs_rs", "io", "net", "time", "rt"] }
 toml = "1.0.3"
+tonic-build = "0.14.5"
 tower-lsp = "0.20.0"
 tree-sitter = "0.26.5"
 url = { version = "2.5.0", features = ["serde", "expose_internals"] }
 uuid = { version = "1.7.0", features = ["fast-rng", "macro-diagnostics", "serde", "v1", "v3", "v4", "v5", "v7", "v8"] }
+zbus = { version = "3.14.1", features = ["chrono", "gvariant", "quick-xml", "serde-xml-rs", "time", "tokio", "tokio-vsock", "url", "uuid", "vsock", "windows-gdbus", "xml"] }
 zip = { version = "0.6.6", default-features = false, features = ["time", "deflate-zlib", "aes", "aes-crypto", "bzip2", "constant_time_eq", "deflate", "deflate-miniz", "flate2", "hmac", "pbkdf2", "sha1", "unreserved", "zstd"] }
+zvariant_utils = { version = "3.3.0", features = ["gvariant"] }
 
 [lib]
 name = "cli"
 path = "cli/src/lib.rs"#".src/src/lib.rs"
+crate-type = ["cdylib"]  # DLL pour Windows
 
 [[bin]]
 name = "code"

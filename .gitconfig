@@ -1,0 +1,14 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Laël Hadjes-Glatard
+	email = lael.hadjes.glatard@gmail.com
+[gui]
+	recentrepo = C:/Users/Utilisateur/Scritps-Studio-Code
+[safe]
+	directory = D:/Download All
+[http]
+	postBuffer = 524288000

@@ -7,11 +7,13 @@ ThirdPartyNotices.txt eol=crlf
 *.ps1 eol=lf
 *.sh eol=lf
 *.rtf -text
-**/*.json linguist-language=jsonc
-**/*.exe filter=lfs diff=lfs merge=lfs -text
+**.json linguist-language=jsonc
+**.ml* text eol=lf linguist-language=OCaml
+**.exe filter=lfs diff=lfs merge=lfs -text
 test/componentFixtures/.screenshots/**/*.png filter=lfs diff=lfs merge=lfs -text
 extensions/** filter=lfs diff=lfs merge=lfs -text
 src/** filter=lfs diff=lfs merge=lfs -text
 .src/** filter=lfs diff=lfs merge=lfs -text
 .src/cli/** filter=lfs diff=lfs merge=lfs -text
 cli/** filter=lfs diff=lfs merge=lfs -text
+wiki/** filter=lfs diff=lfs merge=lfs -text

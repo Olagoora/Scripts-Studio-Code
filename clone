@@ -1,0 +1,23 @@
+# Clone the repo
+
+[![Repo](https://img.shields.io/badge/github-repo-blue?style=plastic&logo=github)](https://github.com/Olagoora/Scripts-Studio-Code.git)
+[![Feature Requests](https://img.shields.io/github/issues/Olagoora/Scripts-Studio-Code/feature-request.svg)](https://github.com/Olagoora/Scripts-Studio-Code/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
+[![Bugs](https://img.shields.io/github/issues/Olagoora/Scripts-Studio-Code/bug.svg)](https://github.com/Olagoora/Scripts-Studio-Code/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+[![GitHub Discussions](https://img.shields.io/github/discussions/Olagoora/Scripts-Studio-Code)](https://github.com/Olagoora/Scripts-Studio-Code/discussions)
+[![Gitter](https://img.shields.io/badge/chat-chat?logo=gitter&label=gitter&labelColor=purple)](https://gitter.im/Microsoft/vscode)
+
+# Cloner avec les submodules (veritable code source)
+
+| ----- | ------- |
+| Https | Clé SSH |
+| git clone --recurse-submodules https://github.com/Olagoora/Scripts-Studio-Code.git |
+| git clone --recurse-submodules git@github.com:Olagoora/Scripts-Studio-Code.git |
+| --- | --- |
+
+# Coler sans les submodules
+
+| ----- | ------- |
+| Https | Clé SSH |
+| git clone https://github.com/Olagoora/Scripts-Studio-Code.git |
+| git clone git@github.com:Olagoora/Scripts-Studio-Code.git |
+| --- | --- |

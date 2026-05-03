@@ -1,0 +1,13 @@
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\Scripts-Studio-Code.csproj.AssemblyReference.cache
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\Scripts-Studio-Code_MarkupCompile.cache
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\Scripts-Studio-Code_MarkupCompile.lref
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\AdvancedOptionsControl.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\CodeFixesOptionControl.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\FormattingOptionsControl.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\IntelliSenseOptionControl.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\LanguageServicePerformanceOptionControl.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\NavStyles.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\fsharp\vsintegration\src\FSharp.UIResources\QuickInfoOptionControl.g.cs
+C:\Users\Utilisateur\Scripts-Studio-Code\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
